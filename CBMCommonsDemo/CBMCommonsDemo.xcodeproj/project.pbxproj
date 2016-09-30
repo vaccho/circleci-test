@@ -15,23 +15,6 @@
 		08AD91AE1D8C045800778206 /* CBMCommons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08AD91AD1D8C045800778206 /* CBMCommons.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		08AD91911D8C042F00778206 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 08AD91741D8C042F00778206 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 08AD917B1D8C042F00778206;
-			remoteInfo = CBMCommonsDemo;
-		};
-		08AD919C1D8C042F00778206 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 08AD91741D8C042F00778206 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 08AD917B1D8C042F00778206;
-			remoteInfo = CBMCommonsDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		08AD917C1D8C042F00778206 /* CBMCommonsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBMCommonsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08AD917F1D8C042F00778206 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,8 +23,6 @@
 		08AD91861D8C042F00778206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08AD91891D8C042F00778206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08AD918B1D8C042F00778206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		08AD91901D8C042F00778206 /* CBMCommonsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBMCommonsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		08AD919B1D8C042F00778206 /* CBMCommonsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBMCommonsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08AD91AD1D8C045800778206 /* CBMCommons.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CBMCommons.framework; path = "../CBMCommons/build/Debug-iphoneos/CBMCommons.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,20 +32,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				08AD91AE1D8C045800778206 /* CBMCommons.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		08AD918D1D8C042F00778206 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		08AD91981D8C042F00778206 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				08AD917C1D8C042F00778206 /* CBMCommonsDemo.app */,
-				08AD91901D8C042F00778206 /* CBMCommonsDemoTests.xctest */,
-				08AD919B1D8C042F00778206 /* CBMCommonsDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,42 +88,6 @@
 			productReference = 08AD917C1D8C042F00778206 /* CBMCommonsDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		08AD918F1D8C042F00778206 /* CBMCommonsDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 08AD91A71D8C042F00778206 /* Build configuration list for PBXNativeTarget "CBMCommonsDemoTests" */;
-			buildPhases = (
-				08AD918C1D8C042F00778206 /* Sources */,
-				08AD918D1D8C042F00778206 /* Frameworks */,
-				08AD918E1D8C042F00778206 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				08AD91921D8C042F00778206 /* PBXTargetDependency */,
-			);
-			name = CBMCommonsDemoTests;
-			productName = CBMCommonsDemoTests;
-			productReference = 08AD91901D8C042F00778206 /* CBMCommonsDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		08AD919A1D8C042F00778206 /* CBMCommonsDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 08AD91AA1D8C042F00778206 /* Build configuration list for PBXNativeTarget "CBMCommonsDemoUITests" */;
-			buildPhases = (
-				08AD91971D8C042F00778206 /* Sources */,
-				08AD91981D8C042F00778206 /* Frameworks */,
-				08AD91991D8C042F00778206 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				08AD919D1D8C042F00778206 /* PBXTargetDependency */,
-			);
-			name = CBMCommonsDemoUITests;
-			productName = CBMCommonsDemoUITests;
-			productReference = 08AD919B1D8C042F00778206 /* CBMCommonsDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -171,14 +100,6 @@
 				TargetAttributes = {
 					08AD917B1D8C042F00778206 = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					08AD918F1D8C042F00778206 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 08AD917B1D8C042F00778206;
-					};
-					08AD919A1D8C042F00778206 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 08AD917B1D8C042F00778206;
 					};
 				};
 			};
@@ -196,8 +117,6 @@
 			projectRoot = "";
 			targets = (
 				08AD917B1D8C042F00778206 /* CBMCommonsDemo */,
-				08AD918F1D8C042F00778206 /* CBMCommonsDemoTests */,
-				08AD919A1D8C042F00778206 /* CBMCommonsDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -213,20 +132,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		08AD918E1D8C042F00778206 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		08AD91991D8C042F00778206 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -239,34 +144,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		08AD918C1D8C042F00778206 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		08AD91971D8C042F00778206 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		08AD91921D8C042F00778206 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 08AD917B1D8C042F00778206 /* CBMCommonsDemo */;
-			targetProxy = 08AD91911D8C042F00778206 /* PBXContainerItemProxy */;
-		};
-		08AD919D1D8C042F00778206 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 08AD917B1D8C042F00778206 /* CBMCommonsDemo */;
-			targetProxy = 08AD919C1D8C042F00778206 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		08AD91831D8C042F00778206 /* Main.storyboard */ = {
@@ -395,52 +273,6 @@
 			};
 			name = Release;
 		};
-		08AD91A81D8C042F00778206 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CBMCommonsDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cybozu.CBMCommonsDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CBMCommonsDemo.app/CBMCommonsDemo";
-			};
-			name = Debug;
-		};
-		08AD91A91D8C042F00778206 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CBMCommonsDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cybozu.CBMCommonsDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CBMCommonsDemo.app/CBMCommonsDemo";
-			};
-			name = Release;
-		};
-		08AD91AB1D8C042F00778206 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CBMCommonsDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cybozu.CBMCommonsDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CBMCommonsDemo;
-			};
-			name = Debug;
-		};
-		08AD91AC1D8C042F00778206 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CBMCommonsDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cybozu.CBMCommonsDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CBMCommonsDemo;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -460,22 +292,7 @@
 				08AD91A61D8C042F00778206 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		08AD91A71D8C042F00778206 /* Build configuration list for PBXNativeTarget "CBMCommonsDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				08AD91A81D8C042F00778206 /* Debug */,
-				08AD91A91D8C042F00778206 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		08AD91AA1D8C042F00778206 /* Build configuration list for PBXNativeTarget "CBMCommonsDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				08AD91AB1D8C042F00778206 /* Debug */,
-				08AD91AC1D8C042F00778206 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
